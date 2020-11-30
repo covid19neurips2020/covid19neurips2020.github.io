@@ -4,9 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>COVID-19 Symposium!</title>
+    <title>COVID-19 Symposium</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/flatly/bulmaswatch.min.css">
+    <style>
+        .image img {
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,6 +28,7 @@
             </div>
         </div>
     </section>
+
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger burger is-primary" aria-label="menu" aria-expanded="false"
@@ -37,20 +44,11 @@
                 <!-- <a class="navbar-item is-active" id="home_button" href="#">
                     Home
                 </a> -->
-                <a class="navbar-item " id="participate_button" href="#participate">
-                    Call for participation
-                </a>
                 <a class="navbar-item " id="schedule_button" href="#schedule">
                     Schedule
                 </a>
                 <a class="navbar-item " id="speakers_button" href="#speakers">
                     Speakers
-                </a>
-                <a class="navbar-item " id="mentorship_button" href="#mentorship">
-                    Mentorship
-                </a>
-                <a class="navbar-item " id="sponsorship_button" href="#sponsorship">
-                    Sponsorship
                 </a>
                 <a class="navbar-item " id="organizers_button" href="#organizers">
                     Organizers
@@ -59,8 +57,8 @@
         </div>
     </nav>
 
-
     <div class="container">
+
         <div class="section">
             <div class="container">
                 <h1 class="title">Overview
@@ -81,81 +79,13 @@
             </div>
         </div>
 
-        <div class="section" id="participate">
-            <div class="container">
-                <h1 class="title">Call for participation
-                    <hr class="navbar-divider">
-                </h1>
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum rutrum euismod. Sed sed
-                        dignissim tellus, nec dignissim mi. Nulla facilisi. Curabitur sed ligula feugiat, ultrices dolor
-                        sit
-                        amet, dapibus purus. Aliquam est sapien, placerat eu sapien sed, tincidunt malesuada eros. Fusce
-                        volutpat, dolor eu dictum elementum, libero urna rhoncus nisi, ultrices elementum lorem ligula
-                        congue ipsum. Aenean a orci vulputate, mollis ipsum vel, ultrices erat. Pellentesque ligula ex,
-                        consectetur quis suscipit eget, auctor a lectus. Quisque dapibus, lorem in iaculis mattis, metus
-                        massa tincidunt lorem, non dapibus orci turpis a libero. Duis scelerisque felis fringilla,
-                        mattis
-                        ante eleifend, suscipit urna. Sed a orci risus. Pellentesque posuere placerat nulla, ac mollis
-                        ipsum
-                        ultricies ac. Nulla vel tortor ut dolor eleifend tincidunt.
-                    </p>
-                    <h3> Subheading 1</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum rutrum euismod. Sed sed
-                        dignissim tellus, nec dignissim mi. Nulla facilisi. Curabitur sed ligula feugiat, ultrices dolor
-                        sit
-                        amet, dapibus purus. Aliquam est sapien, placerat eu sapien sed, tincidunt malesuada eros. Fusce
-                        volutpat, dolor eu dictum elementum, libero urna rhoncus nisi, ultrices elementum lorem ligula
-                        congue ipsum. Aenean a orci vulputate, mollis ipsum vel, ultrices erat. Pellentesque ligula ex,
-                        consectetur quis suscipit eget, auctor a lectus. Quisque dapibus, lorem in iaculis mattis, metus
-                        massa tincidunt lorem, non dapibus orci turpis a libero. Duis scelerisque felis fringilla,
-                        mattis
-                        ante eleifend, suscipit urna. Sed a orci risus. Pellentesque posuere placerat nulla, ac mollis
-                        ipsum
-                        ultricies ac. Nulla vel tortor ut dolor eleifend tincidunt.
-                    </p>
-                    <h3> Subheading 2</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum rutrum euismod. Sed sed
-                        dignissim tellus, nec dignissim mi. Nulla facilisi. Curabitur sed ligula feugiat, ultrices dolor
-                        sit
-                        amet, dapibus purus. Aliquam est sapien, placerat eu sapien sed, tincidunt malesuada eros. Fusce
-                        volutpat, dolor eu dictum elementum, libero urna rhoncus nisi, ultrices elementum lorem ligula
-                        congue ipsum. Aenean a orci vulputate, mollis ipsum vel, ultrices erat. Pellentesque ligula ex,
-                        consectetur quis suscipit eget, auctor a lectus. Quisque dapibus, lorem in iaculis mattis, metus
-                        massa tincidunt lorem, non dapibus orci turpis a libero. Duis scelerisque felis fringilla,
-                        mattis
-                        ante eleifend, suscipit urna. Sed a orci risus. Pellentesque posuere placerat nulla, ac mollis
-                        ipsum
-                        ultricies ac. Nulla vel tortor ut dolor eleifend tincidunt.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-
         <div class="section" id="schedule">
             <div class="container">
                 <h1 class="title">Schedule
                     <hr class="navbar-divider">
                 </h1>
                 <div class="content">
-                    <p>Morbi luctus, erat ac tincidunt luctus, augue lacus pulvinar libero, in pulvinar metus neque sed
-                        urna. Suspendisse efficitur justo convallis, sagittis eros non, tristique augue. Donec felis
-                        sem,
-                        commodo in sodales quis, ultricies a lacus. Cras auctor a mauris nec venenatis. Fusce dapibus
-                        vestibulum leo at sodales. Mauris eu elementum turpis, et imperdiet ex. Aliquam varius imperdiet
-                        mi
-                        et euismod. Donec ac interdum libero. Ut sit amet sagittis mauris. Suspendisse vel purus eget
-                        sapien
-                        euismod sollicitudin at et nisi. Sed efficitur massa eu enim gravida maximus. Praesent et
-                        feugiat
-                        felis. Praesent maximus purus sed justo dictum euismod. Fusce ex leo, iaculis sed finibus non,
-                        molestie a eros. Maecenas hendrerit purus augue, vitae mattis urna semper nec. Vivamus molestie
-                        congue sapien vel ullamcorper.</p>
-                    <h3>Subheading 1</h3>
+                    <h3>Day 1: Tue, Dec 8th, 2020 @ 15:00 – 19:00 EST</h3>
                     <table class="table is-striped is-fullwidth is-hoverable">
                         <thead>
                             <tr>
@@ -165,24 +95,73 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks Opening remarks Opening remarks Opening remarks</td>
-                            </tr>
-                            <tr>
-                                <td>9:00 - 10:00</td>
+                                <td>15:00 – 15:15 EST</td>
                                 <td>Opening remarks</td>
                             </tr>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks</td>
+                                <td>15:15 – 15:50 EST</td>
+                                <td>COVID-19: Can we test our way out of this?</td>
                             </tr>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks</td>
+                                <td>15:50 – 16:00 EST</td>
+                                <td>COVID-19: Can we test our way out of this? Q&amp;A</td>
+                            </tr>
+                            <tr>
+                                <td>16:00 – 16:35 EST</td>
+                                <td>A Journey Through the Disorderly World of Diagnostic and Prognostic Models for
+                                    COVID-19</td>
+                            </tr>
+                            <tr>
+                                <td>16:35 – 16:45 EST</td>
+                                <td>Wynats Q&amp;A</td>
+                            </tr>
+                            <tr>
+                                <td>16:45 – 17:20 EST</td>
+                                <td>Mobility network models of COVID-19 explain inequities and inform reopening</td>
+                            </tr>
+                            <tr>
+                                <td>17:20 – 17:30 EST</td>
+                                <td>Emma Pierson Q&amp;A</td>
+                            </tr>
+                            <tr>
+                                <td>17:30 – 17:04 EST</td>
+                                <td>When and How to Lift the Lockdown? Global COVID-19 Scenario Analysis and Policy</td>
+                            </tr>
+                            <tr>
+                                <td>17:34 – 17:38 EST</td>
+                                <td>Modern Hopfield Networks and Attention for Immune Repertoire Classification</td>
+                            </tr>
+                            <tr>
+                                <td>17:38 – 17:42 EST</td>
+                                <td>The Devil is in the Detail: A Framework for Macroscopic Prediction via Microscopic
+                                    Models</td>
+                            </tr>
+                            <tr>
+                                <td>17:42 – 17:46 EST</td>
+                                <td>How Robust are the Estimated Effects of Nonpharmaceutical Interventions against
+                                    COVID-19?</td>
+                            </tr>
+                            <tr>
+                                <td>17:46 – 17:50 EST</td>
+                                <td>Interpretable Sequence Learning for Covid-19 Forecasting</td>
+                            </tr>
+                            <tr>
+                                <td>17:50 – 17:54 EST</td>
+                                <td>CogMol: Target-Specific and Selective Drug Design for COVID-19 Using Deep Generative
+                                    Models</td>
+                            </tr>
+                            <tr>
+                                <td>17:54 – 17:58 EST</td>
+                                <td>Deep Direct Likelihood Knockoffs</td>
+                            </tr>
+                            <tr>
+                                <td>17:58 – 18:02 EST</td>
+                                <td>Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk
+                                    Estimation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
                             </tr>
                         </tbody>
                     </table>
-                    <h3>Subheading 2</h3>
+                    <h3>Day 2: Wed, Dec 9th, 2020 @ 15:00 – 19:00 EST</h3>
                     <table class="table is-striped is-fullwidth is-hoverable">
                         <thead>
                             <tr>
@@ -192,20 +171,77 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks Opening remarks Opening remarks Opening remarks</td>
+                                <td>15:00 – 15:15 EST</td>
+                                <td>Opening remarks for day 2 of COVID-19 Symposium</td>
                             </tr>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks</td>
+                                <td>15:15 – 15:50 EST</td>
+                                <td>AI Assisted Tracking of Non-pharmaceutical Interventions Implemented Worldwide for
+                                    COVID-19</td>
                             </tr>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks</td>
+                                <td>15:50 – 16:00 EST</td>
+                                <td>Walcott-Bryant Q&amp;A</td>
                             </tr>
                             <tr>
-                                <td>9:00 - 10:00</td>
-                                <td>Opening remarks</td>
+                                <td>16:45 – 17:20 EST</td>
+                                <td>Chris Holmes - Title TBD</td>
+                            </tr>
+                            <tr>
+                                <td>17:20 – 17:30 EST</td>
+                                <td>Chris Holmes Q&amp;A</td>
+                            </tr>
+                            <tr>
+                                <td>17:30 – 18:05 EST</td>
+                                <td>Vaccine development in the era of COVID-19</td>
+                            </tr>
+                            <tr>
+                                <td>18:05 – 18:15 EST</td>
+                                <td>Vaccine Development Q&amp;A</td>
+                            </tr>
+                            <tr>
+                                <td>18:15 – 18:19 EST</td>
+                                <td>Transfer Learning with Neural Motif Transformer for Predicting Protein-Protein
+                                    Interactions Between SARS-CoV-2 and Humans</td>
+                            </tr>
+                            <tr>
+                                <td>18:19 – 18:23 EST</td>
+                                <td>Addressing Public Health Literacy Disparities through Machine Learning: A Human in
+                                    the Loop Augmented Intelligence based Tool for Public Health</td>
+                            </tr>
+                            <tr>
+                                <td>18:23 – 18:27 EST</td>
+                                <td>Quantifying Uncertainty in Deep Spatiotemporal Forecasting for COVID-19</td>
+                            </tr>
+                            <tr>
+                                <td>18:27 – 18:31 EST</td>
+                                <td>Mobility network models of COVID-19 explain inequities and inform reopening</td>
+                            </tr>
+                            <tr>
+                                <td>18:31 – 18:35 EST</td>
+                                <td>Unsupervised learning for economic risk evaluation in the context of Covid-19
+                                    pandemic</td>
+                            </tr>
+                            <tr>
+                                <td>18:35 – 18:39 EST</td>
+                                <td>Forecasting Emergency Department Capacity Constraints for COVID Isolation Beds</td>
+                            </tr>
+                            <tr>
+                                <td>18:39 – 18:43 EST</td>
+                                <td>Using Wearables for Influenza-Like Illness Detection: The importance of design</td>
+                            </tr>
+                            <tr>
+                                <td>18:43 – 18:47 EST</td>
+                                <td>A Bayesian Hierarchical Network for Combining Heterogeneous Data Sources in Medical
+                                    Diagnoses</td>
+                            </tr>
+                            <tr>
+                                <td>18:47 – 18:51 EST</td>
+                                <td>Designing a Prospective COVID-19 Therapeutic with Reinforcement Learning</td>
+                            </tr>
+                            <tr>
+                                <td>18:51 – 18:55 EST</td>
+                                <td>Multiscale PHATE Exploration of SARS-CoV-2 Data Reveals Signature of Disease</td>
                             </tr>
                         </tbody>
                     </table>
@@ -222,17 +258,17 @@
                 <div class="columns is-multiline is-6">
                     <div class="column is-3">
                         <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-square">
-                                    <img src="images/tristan.jpg" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <a href="javascript:;" id="LaunchSpeakerOneModal">
-                                    <p class="title">Mod Name</p>
-                                    <p class="subtitle">Mod Affiliation</p>
-                                </a>
-                            </div>
+                            <a href="javascript:;" id="LaunchSpeakerOneModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/emma.jpeg" alt="Emma Pierson image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Emma Pierson</p>
+                                    <p class="subtitle">Microsoft Research</p>
+                                </div>
+                            </a>
                             <div class="modal" id="SpeakerOneModal">
                                 <div class="modal-background"></div>
                                 <div class="modal-card">
@@ -242,33 +278,16 @@
                                     </header>
                                     <section class="modal-card-body">
                                         <div class="content">
-                                        <p>
-                                        I am at Microsoft Research’s Healthcare NExT working on problems related to
-                                        clinical natural language processing and machine reading. My research focuses on
-                                        exploring relationships in complex, unstructured healthcare data using natural
-                                        language processing and unsupervised learning techniques. Previously, I
-                                        completed a PhD in the Clinical Decision Making group at MIT CSAIL with Prof.
-                                        Peter Szolovits, where the research focused on leveraging text representations
-                                        for clinical predictive tasks, combining structured and unstructured healthcare
-                                        data. My work has appeared in KDD, AAAI, AMIA, JMIR, Science Translational
-                                        Medicine, and Nature Translational Psychiatry.
-                                        </p>
-                                        
-                                        <p>
-                                        While at MIT, I was an Instructor for HST.953 (Collaborative Data Science for
-                                        Medicine) and co-authored its textbook, “Secondary Analysis of Electronic Health
-                                        Records.” I served as the General Chair for the NIPS 2018 Machine Learning for
-                                        Health (ML4H) workshop, and co-organized the NIPS 2017 ML4H workshop, the COLING
-                                        2016 Clinical NLP workshop, and several “datathon” events, which bring together
-                                        participants to address problems of clinical interest. I also served as a mentor
-                                        for the MIT Summer Research Program (MSRP), and has spent time as a Software
-                                        Engineering Intern at Intel Corporation. Prior to MIT, I was a Program Manager
-                                        at Microsoft Corporation, an Associate Product Manager Intern at Google, and
-                                        received B.S. and M.S degrees in computer science from Columbia University.
-                                        While at Columbia University, I was a MS-TA fellow and recipient of the Andrew
-                                        P. Kosoresow Memorial Award for Outstanding Performance in TA-ing and Service.
-                                    </p>
-                                </div>
+                                            <p>
+                                                Emma Pierson is a senior researcher at Microsoft Research and an
+                                                incoming assistant professor of computer science at Cornell Tech. She
+                                                develops data science and machine learning methods to study inequality
+                                                and healthcare. Her work has been recognized by a Rhodes Scholarship,
+                                                Hertz Fellowship, Rising Star in EECS, and Forbes 30 Under 30 in
+                                                Science. She has written for The New York Times, FiveThirtyEight, The
+                                                Atlantic, The Washington Post, Wired, and various other publications.
+                                            </p>
+                                        </div>
                                     </section>
                                 </div>
                             </div>
@@ -276,53 +295,295 @@
                     </div>
                     <div class="column is-3">
                         <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-square">
-                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <p class="title">Name</p>
-                                <p class="subtitle">Affiliation</p>
+                            <a href="javascript:;" id="LaunchSpeakerTwoModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/laure.jpg" alt="Laure Wynants image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Laure Wynants</p>
+                                    <p class="subtitle">Maastricht University</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="SpeakerTwoModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Laure Wynants is assistant professor of Epidemiology at Maastricht
+                                                University in the Netherlands and
+                                                post-doctoral fellow of the Research Foundation Flanders in Belgium. She
+                                                earned a M.A. in
+                                                Biostatistics, summa cum laude, and a PhD from the KU Leuven in Belgium.
+                                                She’s interested in
+                                                methods to handle heterogeneity between populations when developing and
+                                                validating prediction
+                                                models, and in the utility of prediction models in clinical practice.
+                                                Her methodological work has
+                                                received the Lee Lusted award for Quantitative Methods and Theoretical
+                                                Developments from the
+                                                society of medical decision-making and the Doug Altman award. Her
+                                                article “Random‐effects
+                                                meta‐analysis of the clinical utility of tests and prediction models”
+                                                was recognized as one of the most
+                                                read in Statistics in Medicine in 2019. She is associate editor for BMC
+                                                Diagnostic and Prognostic
+                                                Research, member of the International Society for Clinical Biostatistics
+                                                and member of STRATOS’
+                                                (STRengthening Analytical Thinking for Observational Studies) topic
+                                                group on the evaluation of
+                                                diagnostic tests and prediction models.
+                                            </p>
+                                            <p>
+                                                Her applied work includes models for gynecological cancers,
+                                                hospital-acquired infections, and covid-
+                                                19. She worked closely with the IOTA consortium on the development and
+                                                validation of diagnostic
+                                                models for ovarian cancer. These models are now implemented in mobile
+                                                apps and ultrasound
+                                                machines of GE and Samsung, and are incorporated in international
+                                                clinical guidelines. Since March
+                                                2020, she leads an international consortium to systematically review
+                                                models for covid-19. This review
+                                                already has over 500 citations and has been picked up by policymakers,
+                                                including the European
+                                                Commission.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="column is-3">
                         <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-square">
-                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <p class="title">Name</p>
-                                <p class="subtitle">Affiliation</p>
+                            <a href="javascript:;" id="LaunchSpeakerThreeModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/mina.jpg" alt="Michael Mina image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Michael Mina</p>
+                                    <p class="subtitle">Harvard School of Public Health</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="SpeakerThreeModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Michael Mina, MD, PhD is a physician-scientist and Assistant Professor
+                                                in the department of
+                                                Epidemiology and Immunology and Infectious Diseases at the Harvard
+                                                School of Public Health. He is also
+                                                a pathologist at Brigham and Women’s Hospital and Harvard Medical School
+                                                where he helps to oversee
+                                                molecular virology. He is a recent recipient of the National Institutes
+                                                of Health NIH Director’s Early
+                                                Independence Award, and his public health efforts have been highlighted
+                                                by The Economist
+                                                Magazine where he was named one of eight Global Progress Makers. He has
+                                                received numerous
+                                                national and international recognitions for his research on childhood
+                                                infectious diseases and vaccines.
+                                            </p>
+                                            <p>
+                                                Most recently, Michael is working with colleagues at the Ragon
+                                                Institute, the MIT Sloan School
+                                                and Princeton University to develop a Global Immunological Observatory
+                                                (GIO) – a not-for-profit
+                                                network of high throughput laboratories to monitor emerging and existing
+                                                pathogens in the US and
+                                                globally. The objective is to create a virus monitoring system that
+                                                matches the weather forecasting
+                                                systems in use globally today.
+                                            </p>
+                                            <p>
+                                                Michael has been on the front lines of the COVID-19 pandemic since it
+                                                began, helping to advise
+                                                state, national, and international institutions and governments and has
+                                                been instrumental in setting up
+                                                high throughput COVID-19 testing programs at the Broad Institute of MIT
+                                                and Harvard, where he is also
+                                                an Associate Member. His research focuses on monitoring and tracking
+                                                outbreaks of novel and seasonal
+                                                viruses through the global population. His laboratory at the Harvard
+                                                School of Public Health develops
+                                                new technologies and statistical algorithms that measure the immune
+                                                system response in fine detail and
+                                                leverages immunological data to detect and forecast pathogen movement.
+                                                His clinical work at the
+                                                Brigham and Women’s Hospital is as a medical director overseeing
+                                                molecular virology diagnostics.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="column is-3">
                         <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-square">
-                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <p class="title">Name</p>
-                                <p class="subtitle">Affiliation</p>
+                            <a href="javascript:;" id="LaunchSpeakerFourModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/noubar.jpg" alt="Noubar Afeyan image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Noubar Afeyan</p>
+                                    <p class="subtitle">Flagship Pioneering</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="SpeakerFourModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Noubar Afeyan has dedicated his career to improving the human condition
+                                                by systematically creating science-based innovations that serve as the
+                                                foundation for startup companies. At Flagship Pioneering, which he
+                                                founded in 2000, Noubar has created an enterprise where
+                                                entrepreneurially minded scientists invent seemingly unreasonable
+                                                solutions to challenges facing human health and sustainability. They
+                                                begin by asking “What if?” and iterate toward the unexpected answer “It
+                                                turns out,” resulting in the creation of first-in-category companies
+                                                with significant impact. Flagship has fostered the development of more
+                                                than 100 scientific ventures resulting in $30 billion in aggregate
+                                                value, thousands of patents and patent applications, and more than 50
+                                                drugs in clinical development.
+                                            </p>
+                                            <p>
+                                                During his career as inventor, entrepreneur, and CEO, Noubar has
+                                                cofounded and helped build over 50 life science and technology startups.
+                                                Prior to founding Flagship Pioneering, Noubar was the founder and CEO of
+                                                PerSeptive Biosystems, a leader in bio-instrumentation that grew to $100
+                                                million in annual revenues. After PerSeptive’s acquisition by Perkin
+                                                Elmer/Applera Corporation in 1998, he became senior vice president and
+                                                chief business officer of Applera, where he initiated and oversaw the
+                                                creation of Celera Genomics.
+                                            </p>
+                                            <p>
+                                                He serves on the boards of a number of public and private Flagship
+                                                companies, including Moderna (NASDAQ: MRNA), where he is chairman,
+                                                Rubius Therapeutics (NASDAQ: RUBY), Cellarity, Omega Therapeutics,
+                                                Tessera Therapeutics, and others. Previously, he was a member of the
+                                                founding team, director, and investor in highly successful ventures
+                                                including Chemgenics Pharmaceuticals (acquired by Millenium
+                                                Pharmaceuticals), Color Kinetics (acquired by Philips), Adnexus
+                                                Therapeutics (acquired by Bristol-Myers Squibb), and Affinnova (acquired
+                                                by AC Nielsen).
+                                                Noubar entered biotechnology during its emergence as an academic field
+                                                and industry, completing his doctoral work in biochemical engineering at
+                                                MIT in 1987. He has written numerous scientific publications and is the
+                                                inventor of over 100 patents. He is a lecturer at Harvard Business
+                                                School; and from 2000 to 2016 was a senior lecturer at MIT’s Sloan
+                                                School of Management. He teaches and speaks around the world on topics
+                                                ranging from entrepreneurship, innovation, and economic development to
+                                                biological engineering, new medicines, and renewable energy.
+                                            </p>
+                                            <p>
+                                                Noubar’s commitment to improving the human condition through science and
+                                                business goes hand in hand with social investments and a global
+                                                humanitarian initiative. Together with his partners, he has launched
+                                                philanthropic projects including the IDeA Foundation, UWC Dilijan
+                                                School, 100 LIVES, and the Aurora Humanitarian Initiative to raise
+                                                awareness of the world’s most pressing humanitarian problems. Noubar is
+                                                a member of the Corporation of MIT (the Institute’s governing body) and
+                                                a member of the board of trustees for the Boston Symphony Orchestra.
+                                            </p>
+                                            <p>
+                                                Noubar was born in Beirut to Armenian parents in 1962, did his
+                                                undergraduate work at McGill University in Montreal, and completed his
+                                                Ph.D. in biochemical engineering at MIT in 1987. A passionate advocate
+                                                of the contributions of immigrants to economic and scientific progress,
+                                                Noubar received the Golden Door Award in 2017 from the International
+                                                Institute of New England, in honor of his outstanding contributions to
+                                                American society as a U.S citizen of foreign birth. He was also awarded
+                                                a Great Immigrant honor from the Carnegie Corporation in 2016, received
+                                                a Technology Pioneer award from the World Economic Forum in 2012, and
+                                                was presented with the Ellis Island Medal of Honor in 2008.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="column is-3">
                         <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-square">
-                                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <p class="title">Name</p>
-                                <p class="subtitle">Affiliation</p>
+                            <a href="javascript:;" id="LaunchSpeakerFiveModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/chris.jpg" alt="Chris Holmes image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Chris Holmes</p>
+                                    <p class="subtitle">The Alan Turing Institute and University of Oxford</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="SpeakerFiveModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Chris Holmes is Programme Director for Health and Medical Sciences at
+                                                The Alan Turing Institute. His appointment is made jointly with Health
+                                                Data Research UK.
+
+
+
+                                            </p>
+                                            <p>
+                                                He is Professor of Biostatistics at the University of Oxford with a
+                                                joint appointment between the Department of Statistics and the Nuffield
+                                                Department of Clinical Medicine through the Wellcome Trust Centre for
+                                                Human Genetics and the Li Ka Shing Centre for Health Innovation and
+                                                Discovery.
+                                            </p>
+                                            <p>
+                                                Before joining Oxford, Chris was based at Imperial College, London, and
+                                                also worked in industry conducting research in scientific computing. He
+                                                holds a Programme Leader’s award in Statistical Genomics from the
+                                                Medical Research Council UK. In 2016, WIRED UK magazine named him one of
+                                                the ‘Innovators of the year in AI’.
+                                            </p>
+                                            <p>
+                                                Chris has a broad interest in the theory, methods and applications of
+                                                statistics and statistical modelling. He is particularly interested in
+                                                pattern recognition and nonlinear, nonparametric statistical machine
+                                                learning methods applied to the genomic sciences and genetic
+                                                epidemiology.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,174 +591,254 @@
             </div>
         </div>
 
-        <div class="section" id="mentorship">
+
+
+        <div class="section" id="organizers">
             <div class="container">
-                <h1 class="title">Mentorship
+                <h1 class="title">Organizers
                     <hr class="navbar-divider">
                 </h1>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet mauris nec risus hendrerit
-                        vulputate.
-                        Nulla dapibus, justo sodales pharetra gravida, turpis augue faucibus arcu, in bibendum lorem
-                        purus
-                        eu
-                        nibh.
-                        Nam quis vehicula arcu. Mauris eu luctus velit, id pharetra libero. Ut commodo nibh ante, sit
-                        amet
-                        semper
-                        purus euismod sed. Donec nec ipsum sem. In dapibus rutrum porttitor. Morbi finibus eu libero ac
-                        egestas.
-                        Curabitur sed sem turpis. Nulla sed sollicitudin risus, ut sollicitudin lacus. Sed placerat in
-                        tellus id
-                        pretium. Cras ac sapien erat. Praesent suscipit elit vel sodales tincidunt. Quisque quis feugiat
-                        ipsum.
-                        Duis
-                        efficitur vitae neque in vestibulum.</p>
+                <div class="columns is-multiline is-6">
+                    <div class="column is-3">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchOrganizerOneModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/tristan.jpg" alt=" Tristan Naumann image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title"> Tristan Naumann</p>
+                                    <p class="subtitle">Microsoft Research</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="OrganizerOneModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                I am at Microsoft Research’s Healthcare NExT working on problems related
+                                                to
+                                                clinical natural language processing and machine reading. My research
+                                                focuses on
+                                                exploring relationships in complex, unstructured healthcare data using
+                                                natural
+                                                language processing and unsupervised learning techniques. Previously, I
+                                                completed a PhD in the Clinical Decision Making group at MIT CSAIL with
+                                                Prof.
+                                                Peter Szolovits, where the research focused on leveraging text
+                                                representations
+                                                for clinical predictive tasks, combining structured and unstructured
+                                                healthcare
+                                                data. My work has appeared in KDD, AAAI, AMIA, JMIR, Science
+                                                Translational
+                                                Medicine, and Nature Translational Psychiatry.
+                                            </p>
 
-                    <p>Morbi semper orci id aliquam molestie. Mauris vulputate sit amet mi quis bibendum. Morbi at
-                        laoreet
-                        augue,
-                        eget hendrerit ligula. Vestibulum id justo fermentum, dignissim orci tincidunt, gravida nibh.
-                        Donec
-                        a
-                        velit
-                        ac nisi placerat fringilla sagittis eget sapien. Vivamus tincidunt, risus id ultricies commodo,
-                        nunc
-                        arcu
-                        laoreet ante, non tincidunt odio enim id orci. Sed sagittis ultricies tempor. Mauris non enim
-                        felis.
-                        Aenean
-                        vehicula vestibulum ante, vel pretium enim vehicula ac. Etiam non purus mattis, tristique tellus
-                        sed,
-                        ornare
-                        sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        Cras
-                        sem
-                        mi,
-                        mollis quis tempor eu, bibendum sed dui.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" id="sponsorship">
-            <div class="container">
-                <h1 class="title">Sponsorship
-                    <hr class="navbar-divider">
-                </h1>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet mauris nec risus hendrerit
-                        vulputate.
-                        Nulla dapibus, justo sodales pharetra gravida, turpis augue faucibus arcu, in bibendum lorem
-                        purus
-                        eu
-                        nibh.
-                        Nam quis vehicula arcu. Mauris eu luctus velit, id pharetra libero. Ut commodo nibh ante, sit
-                        amet
-                        semper
-                        purus euismod sed. Donec nec ipsum sem. In dapibus rutrum porttitor. Morbi finibus eu libero ac
-                        egestas.
-                        Curabitur sed sem turpis. Nulla sed sollicitudin risus, ut sollicitudin lacus. Sed placerat in
-                        tellus id
-                        pretium. Cras ac sapien erat. Praesent suscipit elit vel sodales tincidunt. Quisque quis feugiat
-                        ipsum.
-                        Duis
-                        efficitur vitae neque in vestibulum.</p>
-
-                    <p>Morbi semper orci id aliquam molestie. Mauris vulputate sit amet mi quis bibendum. Morbi at
-                        laoreet
-                        augue,
-                        eget hendrerit ligula. Vestibulum id justo fermentum, dignissim orci tincidunt, gravida nibh.
-                        Donec
-                        a
-                        velit
-                        ac nisi placerat fringilla sagittis eget sapien. Vivamus tincidunt, risus id ultricies commodo,
-                        nunc
-                        arcu
-                        laoreet ante, non tincidunt odio enim id orci. Sed sagittis ultricies tempor. Mauris non enim
-                        felis.
-                        Aenean
-                        vehicula vestibulum ante, vel pretium enim vehicula ac. Etiam non purus mattis, tristique tellus
-                        sed,
-                        ornare
-                        sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        Cras
-                        sem
-                        mi,
-                        mollis quis tempor eu, bibendum sed dui.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section" id="organizers">
-        <div class="container">
-            <h1 class="title">Organizers
-                <hr class="navbar-divider">
-            </h1>
-            <div class="columns is-multiline is-6">
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Name</p>
-                            <p class="subtitle">Affiliation</p>
+                                            <p>
+                                                While at MIT, I was an Instructor for HST.953 (Collaborative Data
+                                                Science for
+                                                Medicine) and co-authored its textbook, “Secondary Analysis of
+                                                Electronic Health
+                                                Records.” I served as the General Chair for the NIPS 2018 Machine
+                                                Learning for
+                                                Health (ML4H) workshop, and co-organized the NIPS 2017 ML4H workshop,
+                                                the COLING
+                                                2016 Clinical NLP workshop, and several “datathon” events, which bring
+                                                together
+                                                participants to address problems of clinical interest. I also served as
+                                                a mentor
+                                                for the MIT Summer Research Program (MSRP), and has spent time as a
+                                                Software
+                                                Engineering Intern at Intel Corporation. Prior to MIT, I was a Program
+                                                Manager
+                                                at Microsoft Corporation, an Associate Product Manager Intern at Google,
+                                                and
+                                                received B.S. and M.S degrees in computer science from Columbia
+                                                University.
+                                                While at Columbia University, I was a MS-TA fellow and recipient of the
+                                                Andrew
+                                                P. Kosoresow Memorial Award for Outstanding Performance in TA-ing and
+                                                Service.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Name</p>
-                            <p class="subtitle">Affiliation</p>
+                    <div class="column is-3">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchOrganizerTwoModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/beam.png" alt="Andrew Beam image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Andrew Beam</p>
+                                    <p class="subtitle">Harvard School of Public Health</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="OrganizerTwoModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Andrew Beam, PhD is an assistant professor in the Department of
+                                                Epidemiology at the Harvard T.H. Chan School of Public Health, with
+                                                secondary appointments in the Department of Biomedical Informatics at
+                                                Harvard Medical School and the Department of Newborn Medicine at Brigham
+                                                and Women's Hospital. His research develops and applies machine-learning
+                                                methods to extract meaningful insights from clinical and biological
+                                                datasets, and he is the recipient of a Pioneer Award from the Robert
+                                                Wood Johnson Foundation for his work on medical artificial intelligence.
+                                            </p>
+
+                                            <p>
+                                                Previously he was a Senior Fellow at Flagship Pioneering and is founding
+                                                head of machine learning at Generate Biomedicines, a Flagship-backed
+                                                venture that seeks to use machine learning to improve our ability to
+                                                engineer proteins.
+                                            </p>
+                                            <p>
+                                                He earned his PhD in 2014 from N.C. State University for work on
+                                                Bayesian neural networks, and he holds degrees in computer science (BS),
+                                                computer engineering (BS), electrical engineering (BS), and statistics
+                                                (MS), also from N.C. State. He completed a postdoctoral fellowship in
+                                                Biomedical Informatics at Harvard Medical School and then served as a
+                                                junior faculty member.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Name</p>
-                            <p class="subtitle">Affiliation</p>
+                    <div class="column is-3">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchOrganizerThreeModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/heller.jpg" alt="Katherine Heller image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Katherine Heller</p>
+                                    <p class="subtitle">Google Medical Brain and Duke University</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="OrganizerThreeModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                I work at Google Medical Brain. I am also an Assistant Professor in
+                                                Statistical Science at Duke University, where I also hold secondary
+                                                appointments in Computer Science, Electrical and Computer Engineering,
+                                                Neurobiology, Neurology, and is affiliated with the Center for Cognitive
+                                                Neuroscience and the Information Initiative at Duke. I received my PhD
+                                                from the Gatsby Computational Neuroscience Unit at UCL, and was a
+                                                postdoc at the University of Cambridge on an EPSRC postdoc fellowship,
+                                                and at MIT on an NSF postdoc fellowship. In terms of grants I am the
+                                                recent recipient of a couple of Google faculty research awards, a first
+                                                round BRAIN initiative award from the NSF, a CAREER, a DARPA lifelong
+                                                learning award, and an ARI award for modeling teams. My PhD thesis work
+                                                was on coming up with efficient ways to do Bayesian clustering. I did a
+                                                bunch of work on nonparametric Bayes, social networks, and in
+                                                computational cognitive science. I am currently interested in the
+                                                combination of Bayesian statistics and deep neural networks, interacting
+                                                dynamical techniques, and time series and network modeling in general. I
+                                                apply the work that I do to problems in medicine and in social sciences.
+                                                Here are a couple of my recent projects: 1) Using a combination of
+                                                Gaussian Processes and Recurrent Neural Networks to predict whether a
+                                                hospital patient is at risk for sepsis. This work has been deployed in
+                                                the Emergency Department at Duke University Hospital. 2) I have used
+                                                Gaussian Processes, Infinite Factor Models, and logistic regression to
+                                                tackle other medical problems such as chronic kidney disease, and the
+                                                prediction of surgical complications. 3) I developed an app to collect
+                                                data on people with multiple sclerosis. The problem when you have any
+                                                chronic illness is that you spend more time outside the medical system
+                                                (where data might be collected) than in it, so this is an exploration of
+                                                using mobile devices and other trackers to fill in the missing data. 4)
+                                                I am using time series, stochastic Bayesian methods to model social
+                                                networks, ranging from conversation networks (who is most influential in
+                                                a controversial supreme court case?), to disease networks (is my friend
+                                                likely to get me sick?), to Duke basketball team networks (how do we
+                                                construct a winning basketball team?). On a personal level: I grew up in
+                                                the Bronx, and in the northwest suburbs of NYC. I went to school on long
+                                                island, and in Manhattan. I lived for a decade in the UK, a year each in
+                                                Oxford and Cambridge, the rest of the time in London. Over a year in
+                                                Boston, and, most recently, 6 years in North Carolina. I have two
+                                                children, 4 and 6 years old.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Name</p>
-                            <p class="subtitle">Affiliation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-square">
-                                <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <p class="title">Name</p>
-                            <p class="subtitle">Affiliation</p>
+                    <div class="column is-3">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchOrganizerFourModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/Nsoesie.png" alt="Elaine Nsoesie image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Elaine Nsoesie</p>
+                                    <p class="subtitle">University of Washington</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="OrganizerFourModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Dr. Nsoesie applies data science methodologies to global health
+                                                problems, using digital data and technology to improve health,
+                                                particularly in the realm of surveillance of chronic and infectious
+                                                diseases. She has also been appointed as a BU Data Science Faculty
+                                                Fellow, as part of the BU Data Science Initiative at the Hariri
+                                                Institute for Computing. The Data Science Faculty Fellows program
+                                                assembles a cluster of uniquely talented faculty whose expertise
+                                                transcends traditional disciplinary boundaries to enable fundamental
+                                                advances in data science. Dr. Nsoesie completed her PhD in Computational
+                                                Epidemiology from the Genetics, Bioinformatics and Computational Biology
+                                                program at Virginia Tech, and her PhD dissertation, Sensitivity Analysis
+                                                and Forecasting in Network Epidemiology Models, at the Network Dynamics
+                                                and Simulations Science Lab at Virginia Tech BioComplexity Institute.
+                                                After postdoctoral associate positions at Harvard Medical School and
+                                                Boston Children’s Hospital, Dr. Nsoesie joined the faculty of the
+                                                Institute for Health Metrics and Evaluation (IHME) at the University of
+                                                Washington.
+                                            </p>
+
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -571,7 +912,47 @@
         $("#SpeakerOneModal").addClass("is-active");
     });
 
+    $("#LaunchSpeakerTwoModal").click(function () {
+        $("#SpeakerTwoModal").addClass("is-active");
+    });
 
+    $("#LaunchSpeakerThreeModal").click(function () {
+        $("#SpeakerThreeModal").addClass("is-active");
+    });
+
+    $("#LaunchSpeakerFourModal").click(function () {
+        $("#SpeakerFourModal").addClass("is-active");
+    });
+
+    $("#LaunchSpeakerFiveModal").click(function () {
+        $("#SpeakerFiveModal").addClass("is-active");
+    });
+
+    $("#LaunchOrganizerOneModal").click(function () {
+        $("#OrganizerOneModal").addClass("is-active");
+    });
+
+    $("#LaunchOrganizerTwoModal").click(function () {
+        $("#OrganizerTwoModal").addClass("is-active");
+    });
+
+    $("#LaunchOrganizerThreeModal").click(function () {
+        $("#OrganizerThreeModal").addClass("is-active");
+    });
+
+    $("#LaunchOrganizerFourModal").click(function () {
+        $("#OrganizerFourModal").addClass("is-active");
+    });
+
+
+    // $("#SpeakerOneCard").click(function () {
+    //     $("#SpeakerOneModal").addClass("is-active");
+    // });
+
+
+    $(".modal-background").click(function () {
+        $(".modal").removeClass("is-active");
+    });
 
     $(".delete").click(function () {
         $(".modal").removeClass("is-active");
