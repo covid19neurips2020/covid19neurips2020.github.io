@@ -123,6 +123,18 @@
                                 <td>17:20 – 17:30 EST</td>
                                 <td>Emma Pierson Q&amp;A</td>
                             </tr>
+                            </tr>
+                        </tbody>
+                	</table>
+                    <h4>Spotlight talks from main NeurIPS Conference</h4>
+                    <table class="table is-striped is-fullwidth is-hoverable">
+                        <thead>
+                            <tr>
+                                <th> Time</th>
+                                <th> Event</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>17:30 – 17:04 EST</td>
                                 <td>When and How to Lift the Lockdown? Global COVID-19 Scenario Analysis and Policy</td>
@@ -160,6 +172,7 @@
                                     Estimation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
                             </tr>
                         </tbody>
+                    
                     </table>
                     <h3>Day 2: Wed, Dec 9th, 2020 @ 15:00 – 19:00 EST</h3>
                     <table class="table is-striped is-fullwidth is-hoverable">
@@ -199,6 +212,18 @@
                                 <td>18:05 – 18:15 EST</td>
                                 <td>Vaccine Development Q&amp;A</td>
                             </tr>
+                        </tbody>
+                    </table>
+
+                    <h4>Spotlight talks from NeurIPS workshops</h4>
+                    <table class="table is-striped is-fullwidth is-hoverable">
+                        <thead>
+                            <tr>
+                                <th> Time</th>
+                                <th> Event</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>18:15 – 18:19 EST</td>
                                 <td>Transfer Learning with Neural Motif Transformer for Predicting Protein-Protein
@@ -908,6 +933,77 @@
                 </div>
             </div>
         </div>
+
+        <div class="section" id="virtualizationteam">
+            <div class="container">
+                <h2 class="title">Virtualization Team
+                </h2>
+                <div class="columns is-multiline is-6">
+                    <div class="column is-2">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchVirtualizationTeamOneModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/rudraksh.jpeg" alt="Rudraksh Tuwani image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title"> Rudraksh Tuwani</p>
+                                    <p class="subtitle">Harvard School of Public Health</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="VirtualizationTeamOneModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                               Rudraksh Tuwani is a graduate reserach assitant in Dr. Andrew Beam's lab at the Harvard School of Public Health. His research focuses on large language models for medical question and answering tasks. He is currently a masters student in the Harvard Health Data Science program and holds a B.Sc. in statistics from Delhi University. 
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-2">
+                        <div class="card">
+                            <a href="javascript:;" id="LaunchVirtualizationTeamTwoModal">
+                                <div class="card-image">
+                                    <figure class="image is-square">
+                                        <img src="images/kompa.jpg" alt="Ben Kompa image">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <p class="title">Ben Kompa</p>
+                                    <p class="subtitle">Harvard School of Public Health</p>
+                                </div>
+                            </a>
+                            <div class="modal" id="VirtualizationTeamTwoModal">
+                                <div class="modal-background"></div>
+                                <div class="modal-card">
+                                    <header class="modal-card-head">
+                                        <p class="modal-card-title">About</p>
+                                        <button class="delete" aria-label="close"></button>
+                                    </header>
+                                    <section class="modal-card-body">
+                                        <div class="content">
+                                            <p>
+                                                Ben Kompa is a PhD student in Dr. Andrew Beam's lab at the Harvard School of Public Health. His research focuses on  uncertainty estimation for medical machine learning models. Additionally, he works on NLP for medical data and medical question and answering tasks. Previously, he interned at Microsoft Research and earned his M.Phil. in Computational Biology at the University of Cambridge as a Churchill Scholar. Prior to that, he studied mathematics and computer science at the University of North Carolina at Chapel Hill. 
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="content has-text-centered">
@@ -1014,6 +1110,14 @@
 
     $("#LaunchOrganizerFourModal").click(function () {
         $("#OrganizerFourModal").addClass("is-active");
+    });
+
+    $("#LaunchVirtualizationTeamOneModal").click(function () {
+        $("#VirtualizationTeamOneModal").addClass("is-active");
+    });
+
+    $("#LaunchVirtualizationTeamTwoModal").click(function () {
+        $("#VirtualizationTeamTwoModal").addClass("is-active");
     });
 
 
